@@ -1,6 +1,11 @@
-function Circle(radius) {
-  this.radius = radius;
-  this.draw = function () {
-    console.log('draw');
-  };
+let x = 1;
+let y = x;
+
+let addOne = function() {
+  x++;
 }
+
+addOne();
+
+console.log('x is ', x);
+console.log('y is ', y);
