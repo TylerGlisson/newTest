@@ -1,11 +1,9 @@
-let x = 1;
-let y = x;
+let number ={value: 10};
 
-let addOne = function () {
-  x++;
+function increase(number) {
+  number.value++;
 }
 
-addOne();
+increase(number);
 
-console.log('x is ', x);
-console.log('y is ', y);
+console.log(number);
